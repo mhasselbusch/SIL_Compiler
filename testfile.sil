@@ -1,0 +1,19 @@
+program prog1
+
+set c = 3000.0
+set x = c
+set EPSILON = 0.000001
+set delta = 100
+while delta > EPSILON do
+set fx = x*x*x - c
+set fxprime = 3 * x * x
+set newx = x - fx / fxprime
+set delta = newx - x
+if delta < 0 then
+set delta = 0 - delta
+endif
+set x = newx
+end
+print "The cube root of",c,"is",x
+
+end program
