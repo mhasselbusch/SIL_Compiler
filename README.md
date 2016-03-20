@@ -1,7 +1,11 @@
 Simple Imperative Language Compiler (SILC)
+
 Author: Maximilian Hasselbusch, Dr. James Femister
+
 Documented by: Maximilian Hasselbusch
+
 Lehigh University, Bethlehem PA
+
 Last Updated: 16 January 2016
 
 **Please refer to testfile.sil throughout as a reference for the SIL language.**
