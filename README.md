@@ -15,8 +15,11 @@ Last Updated: 16 January 2016
 The SILC compiler is made for use with the Simple Imperative Language (SIL) programming language written by Dr. James Femister, Professor of Practice, Lehigh University.  The language was created in order to give students a basic language to write a compiler for, rather than attempting to do one for a more popular language such as Java or C.  The compiler is written in C++ and utilizes version C++14.  The program can be run from any unix/linux command line.  
 
 The compiler includes the following features:
+
 -Lexical, Syntactical and Semantical analysis
+
 -Line number and character position tracking for debugging
+
 -Error catching and printing (includes line and character numbers).
 
 Once the program is run, code is generated from the SIL file.  This code can be run in the virtual machine created for the SIL language.  The virtual machine (Simple Virtual Machine, SVM) is not included in this software package.
