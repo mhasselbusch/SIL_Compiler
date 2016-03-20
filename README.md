@@ -23,11 +23,11 @@ Once the program is run, code is generated from the SIL file.  This code can be 
 
 ##Running the Program##
 
-1. Compile the program 
+Compile the program 
 
 In order to ensure the compiler runs smoothly, execute a ‘make clean’ command to remove all previous versions of the program from the directory.  Afterwards, execute a ‘make’ command in order to run the Makefile, thus compiling the program into an executable.  The file ’silc’ should appear in the directory.
 
-2. Run the compiler
+Run the compiler
 
 Run the executable ’silc’ with -h as the first command line argument to get instructions on how to run the program.  The compiler should be run with the provided file ‘testfile.sil’ in order to test its functionality.  
 
