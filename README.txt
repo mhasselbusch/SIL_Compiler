@@ -34,7 +34,7 @@ Run the executable ’silc’ with -h as the first command line argument to get 
 Possible commands:
 
 ./silc -h testfile.sil  ->  display more information.
-./silc -p testfile.sil  ->  run the compiler and print out a tree of token (no code is generated).
+./silc -p testfile.sil  ->  run the compiler and print out a tree of tokens (no code is generated).
 ./silc testfile.sil  ->  run the compiler and print out the compiled commands for use in a virtual machine.
 
 ##Class Descriptions##
